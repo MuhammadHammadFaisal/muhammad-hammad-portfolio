@@ -5,98 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f4f6f9;
-            color: #333;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #f8f9fb;
+            color: #1a1a1a;
+            line-height: 1.6;
         }
+
         header {
             background: #1f2d3d;
             color: white;
-            padding: 40px 20px;
+            padding: 60px 20px;
             text-align: center;
         }
-        section {
-            padding: 40px 10%;
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
         }
+
+        header p {
+            margin-top: 10px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 0;
+        }
+
         h2 {
             border-bottom: 2px solid #1f2d3d;
             padding-bottom: 5px;
+            margin-top: 50px;
         }
+
         .card {
             background: white;
-            padding: 20px;
-            margin-top: 15px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 6px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.06);
         }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
         a {
             color: #1f2d3d;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 600;
         }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         footer {
-            text-align: center;
-            padding: 20px;
             background: #1f2d3d;
             color: white;
+            text-align: center;
+            padding: 30px 10px;
+            margin-top: 60px;
         }
-    </style>
-</head>
-<body>
 
-<header>
-    <h1>Muhammad Hammad</h1>
-    <p>Civil Engineering Student | METU | Management • Structural • Transportation</p>
-</header>
-
-<section>
-    <h2>About Me</h2>
-    <div class="card">
-        Civil Engineering student at Middle East Technical University (METU), Honor Student. 
-        Passionate about engineering problem-solving, digital tools, and construction management.
-    </div>
-</section>
-
-<section>
-    <h2>Projects</h2>
-    <div class="card">
-        <h3>MHF Civil Calc – Learning & Calculation Platform</h3>
-        <p>
-            Open-source civil engineering calculation tool focused on Soil Mechanics and Concrete.
-            Designed for exam simulation and engineering accuracy.
-        </p>
-        <p><a href="https://mhf-civil-calc.streamlit.app/" target="_blank">View Live Project</a></p>
-    </div>
-</section>
-
-<section>
-    <h2>Experience</h2>
-    <div class="card">
-        <h3>Civil Engineering Intern – i4</h3>
-        <p>Reviewed and updated technical engineering documents during CE400 internship.</p>
-    </div>
-
-    <div class="card">
-        <h3>Founder – ODTÜ Food Delivery</h3>
-        <p>Managed logistics, cost calculations, marketing, and operations for weekly food service.</p>
-    </div>
-</section>
-
-<section>
-    <h2>Technical Skills</h2>
-    <div class="card">
-        AutoCAD • Civil 3D • Revit • MATLAB • Python • Streamlit • GitHub • Microsoft Office
-    </div>
-</section>
-
-<footer>
-    <p>Contact: hammadbinfaisal@gmail.com</p>
-    <p>
-        <a href="https://www.linkedin.com/in/muhammad-hammad-20059a229/" style="color:white;">LinkedIn</a> |
-        <a href="https://github.com/MuhammadHammadFaisal" style="color:white;">GitHub</a>
-    </p>
-</footer>
-
-</body>
-</html>
+        .skills span {
+            display: inline-block;
+            background: #e4e7ec;
+            padding: 6px 10px;
+            margin: 5px 5px 0 0;
+            border-radius: 4px;
+            font-size: 14px;
