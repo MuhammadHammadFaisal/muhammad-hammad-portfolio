@@ -11,38 +11,25 @@
             color: #1a1a1a;
             line-height: 1.6;
         }
-
         header {
             background: #1f2d3d;
             color: white;
             padding: 60px 20px;
             text-align: center;
         }
-
-        header h1 {
-            margin: 0;
-            font-size: 32px;
-        }
-
-        header p {
-            margin-top: 10px;
-            font-size: 16px;
-            opacity: 0.9;
-        }
-
+        header h1 { margin: 0; font-size: 32px; }
+        header p { margin-top: 10px; font-size: 16px; opacity: 0.9; }
         .container {
             width: 85%;
             max-width: 1000px;
             margin: auto;
             padding: 40px 0;
         }
-
         h2 {
             border-bottom: 2px solid #1f2d3d;
             padding-bottom: 5px;
             margin-top: 50px;
         }
-
         .card {
             background: white;
             padding: 25px;
@@ -50,22 +37,11 @@
             border-radius: 6px;
             box-shadow: 0 3px 8px rgba(0,0,0,0.06);
         }
-
-        .project-title {
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        a {
-            color: #1f2d3d;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
+        .project-title { font-weight: bold; font-size: 18px; }
+        .date { float: right; color: #666; font-size: 14px; }
+        a { color: #1f2d3d; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+        ul { margin-top: 5px; padding-left: 20px; }
         footer {
             background: #1f2d3d;
             color: white;
@@ -73,7 +49,6 @@
             padding: 30px 10px;
             margin-top: 60px;
         }
-
         .skills span {
             display: inline-block;
             background: #e4e7ec;
@@ -81,3 +56,84 @@
             margin: 5px 5px 0 0;
             border-radius: 4px;
             font-size: 14px;
+        }
+        .contact-links { margin-top: 15px; }
+        .contact-links a { color: #4da6ff; margin: 0 10px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Muhammad Hammad</h1>
+        <p>Undergraduate Civil Engineering Student</p>
+        <div class="contact-links">
+            <a href="mailto:hammadbinfaisal@gmail.com">hammadbinfaisal@gmail.com</a> |
+            <a href="https://www.linkedin.com/in/muhammad-hammad-20059a229/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/MuhammadHammadFaisal" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <h2>Curriculum Vitae</h2>
+        
+        <div class="card">
+            <p class="project-title">Education</p>
+            <p><strong>Orta Doğu Teknik Üniversitesi (Middle East Technical University - METU)</strong><span class="date">Expected Graduation: Jan 2027</span><br>
+            Bachelor of Science in Civil Engineering<br>
+            CGPA: 2.78 | Semester GPA: 3.09 | Department Rank: 31st<br>
+            <em>Official Honor Student (Awarded by University Administration)</em></p>
+        </div>
+
+        <div class="card">
+            <p class="project-title">Technical Skills</p>
+            <p><strong>Engineering Software:</strong> AutoCAD, Civil 3D, Revit, MATLAB, Microsoft Office Suite</p>
+            <p><strong>Programming & Tools:</strong> Python, Streamlit, NumPy, Pandas, Matplotlib, HTML/CSS, Git, GitHub</p>
+            <p><strong>Areas of Interest:</strong> Construction Management, Structural Engineering, Transportation Engineering, Geotechnical Engineering</p>
+        </div>
+
+        <div class="card">
+            <p class="project-title">Projects</p>
+            <p><strong>MHF Civil Calc – Civil Engineering Learning & Calculation Platform</strong> <a href="https://mhf-civil-calc.streamlit.app/" target="_blank">(Live Link)</a></p>
+            <ul>
+                <li>Developed an open-source online civil engineering calculation platform focused on Soil Mechanics and Concrete fundamentals.</li>
+                <li>Designed application to simulate exam-level problems with accurate formula-based solutions and scenario creation.</li>
+                <li>Built logic and engineering implementation independently utilizing Python and Streamlit.</li>
+            </ul>
+
+            <p><strong>Transportation Engineering Project – Mountain Road Design</strong></p>
+            <p>Performed horizontal and vertical alignment calculations for a mountainous road segment and conducted geometric design computations following engineering standards.</p>
+        </div>
+
+        <div class="card">
+            <p class="project-title">Experience</p>
+            <p><strong>Civil Engineering Intern – i4 (CE400 Office)</strong><span class="date">30 Working Days</span></p>
+            <ul>
+                <li>Reviewed and updated technical documentation outlining foundation engineering principles and geotechnical design concepts.</li>
+                <li>Verified accuracy of engineering information and structured technical materials for professional presentation.</li>
+            </ul>
+
+            <p><strong>Founder – Campus-Based Cloud Kitchen (ODTÜ)</strong></p>
+            <p>Founded and operated a weekly cloud kitchen service managing 30–50 orders per cycle. Directed logistics, cost estimation, pricing strategy, marketing, and operational planning while supervising delivery personnel and optimizing distribution efficiency.</p>
+        </div>
+
+        <div class="card">
+            <p class="project-title">Languages</p>
+            <p>English: Fluent | Turkish: Basic (A2) | Urdu: Native</p>
+        </div>
+
+        <h2>CE469 Homework 1: Slope Stability</h2>
+        <div class="card">
+            <p class="project-title">AI-Generated Response to: "How is AI revolutionizing slope stability analysis?"</p>
+            <p>Artificial Intelligence is revolutionizing slope stability analysis by processing massive datasets from geospatial sensors, inclinometers, and weather stations much faster than traditional deterministic methods. Machine learning algorithms, such as Artificial Neural Networks (ANNs) and Random Forests, can identify complex, non-linear relationships between soil parameters, rainfall intensity, and topographical features to predict the Factor of Safety (FS). This allows engineers to move from reactive mitigation to proactive, real-time landslide early warning systems, significantly improving risk assessment in complex geotechnical environments.</p>
+            <p><em>Generated using Gemini AI on March 1, 2026.</em></p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Muhammad Hammad. Prepared for CE469.</p>
+    </footer>
+
+</body>
+</html>
